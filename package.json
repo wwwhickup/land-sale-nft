@@ -1,0 +1,43 @@
+{
+  "name": "land-sale-nft",
+  "version": "1.0.0",
+  "description": "REMIX EXAMPLE PROJECT",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multiverse-ai/land-sale-nft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/multiverse-ai/land-sale-nft/issues"
+  },
+  "homepage": "https://github.com/multiverse-ai/land-sale-nft#readme",
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.5.2",
+    "erc721a": "^3.1.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/hardhat-upgrades": "^1.17.0",
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^17.0.21",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "chai": "^4.3.6",
+    "erc721a-upgradeable": "github:Vectorized/ERC721A-Upgradeable",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "ethereum-waffle": "^4.0.0-alpha.0",
+    "ethers": "^5.6.0",
+    "hardhat": "^2.9.1",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
